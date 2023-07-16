@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-image: url("./images/bg-desktop.svg"), 
+    linear-gradient(rgba(94, 19, 109, 0.2),rgba(61, 11, 71, 0.2));;
+    background-color: #674BB1;
+}
+.mainContainer{
+    padding: 0 4.5rem;
+}
+.navbar {
+    padding: 3rem 0;
+}
+.navbar img {
+    width: 170px;
+}
+
+/* Call to Action Design*/
+.cta {
+   display: flex; 
+}
+.ctaDesc{
+    padding: 0 2.5rem;
+}
+.ctaImg, .ctaDesc{
+    flex-basis: 50%;
+}
+.ctaDesc h2, .ctaDesc p{
+    color: #fff;
+}
+.ctaDesc h2{
+    font-size: 2.5rem;
+}
+.ctaDesc p{
+    line-height: 25px;
+}
+
+.btn-register{
+    background-color: #E980E7;
+    padding: 1.2rem 3rem;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 40px;
+    border: none;
+    margin-top: 1.2rem;
+}
+

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@700&family=Lora&family=Oswald:wght@600&family=Raleway:wght@600&family=Roboto:wght@500&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #FD7349;
+}
+.ourTeam{
+    margin-top: 3rem;
+}
+.ourTeam h1{
+    font-size: 4rem;
+}
+.headshot .card {
+    border-radius: 0;
+}
+.headshot img,  .headshot .card{
+    border-top-right-radius: 40px;
+}
+.headshot h1, .headshot p{
+    margin: 1rem 0;
+}
+.headshot h1{
+    font-family: 'Lora', serif;
+}
+.headshot .fa-brands{
+    background-color: #FD7349;
+    border-radius: 50%;
+    padding: 0.7rem;
+    color: #fff;
+    margin-right: 1rem;
+}
